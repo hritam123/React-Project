@@ -19,7 +19,8 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+// import image from "../images/design-desk.jpeg";
+const image="https://dianapps.com/blog/wp-content/uploads/2023/03/Untitled-design-40.png";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,30 +32,31 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "WanderHome | ReactJs, CSS/Bootstrap, Node.js, Express.js, Mapbox API, Firebase, MongoDB, JWT Token, Material-UI",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Developed a MERN stack application for hosting services with interactive maps and secure user authentication.",
+    url: "https://github.com/hritam123/WANDERHOME",
   },
   {
-    title: "Web Development for Beginners",
+    title: "GossipHub | ReactJs, Node.js, Express.js, MongoDB, Socket.io, Material-UI",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Created a real-time chat application with secure authentication and intuitive UIs.",
+    url: "https://github.com/hritam123/gossip__hub",
   },
   {
-    title: "My Resume Site",
+    title: "ByteSync | Client-Server File Sharing System using C programming language with Sockets (Team Project)",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Implemented a secure file-sharing system with multi-threading and synchronization.",
+    url: "https://github.com/OS-PROJECT-FILE-SHARING-SYSTEM/File_Sharing_System",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Text-Utils",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Implemented a secure text utils app to alter the text as per need",
+    url: "https://github.com/hritam123/Text-Utils",
   },
 ];
+
 
 const Portfolio = () => {
   return (
